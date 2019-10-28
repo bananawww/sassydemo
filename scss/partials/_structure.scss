@@ -35,7 +35,7 @@
 
 /* site navigation */
 .site-nav {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -55,7 +55,9 @@
     }
 
     &.active {
+        position: fixed;
         height: 100%;
+        z-index: 100;
         ul {
             display: block;
         }
@@ -66,10 +68,9 @@
 /* MENU BUTTON */
 .menu-button {
     position: absolute;
-    top: 1em;
+    top: 2em;
     right: 2em;
     cursor: pointer;
-    background-color: #000;
 }
 
 section {
