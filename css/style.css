@@ -289,7 +289,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100;
-    background: red; }
+    background: lightcoral; }
     .site-header .site-nav.active ul {
       top: 50%; }
     .site-header .site-nav.active li {
